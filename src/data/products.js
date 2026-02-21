@@ -22,7 +22,8 @@ export const products = [
             { q: "Do I need to know Python?", a: "Basic knowledge helps, but we include a full setup guide and 'run.bat' files for one-click execution." }
         ],
         badge: "Best Seller",
-        icon: "BookOpen"
+        icon: "BookOpen",
+        checkoutUrl: "https://buy.stripe.com/test_placeholder_kdp"
     },
     {
         id: "social-media-bot",
@@ -47,7 +48,8 @@ export const products = [
             { q: "Does it handle cookies?", a: "Yes, it saves your login sessions so you don't need to sign in every time." }
         ],
         badge: "New",
-        icon: "Share2"
+        icon: "Share2",
+        checkoutUrl: "https://buy.stripe.com/test_placeholder_social"
     },
     {
         id: "google-ecosystem-manager",
@@ -72,6 +74,7 @@ export const products = [
             { q: "Does it delete my live books?", a: "Never. It only targets 'draft' or 'error' status entries that match your cleanup criteria." }
         ],
         badge: "Essential",
-        icon: "Command"
+        icon: "Command",
+        checkoutUrl: "https://buy.stripe.com/test_placeholder_google"
     }
 ];

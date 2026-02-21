@@ -26,6 +26,7 @@ const ProductDetails = () => {
         e.preventDefault();
         // Here you would integrate Stripe or another payment processor
         alert(`Thank you for your interest! We've logged your request for ${email}. You will be redirected to the payment gateway shortly.`);
+        window.open(product.checkoutUrl || 'https://buy.stripe.com/test_fallback', '_blank');
         setShowModal(false);
         setEmail('');
     };
