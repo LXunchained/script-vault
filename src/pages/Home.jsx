@@ -1,92 +1,131 @@
-import { ArrowRight, Code, Zap } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck } from 'lucide-react';
 import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
 
+const fadeInUp = {
+    initial: { opacity: 0, y: 30 },
+    animate: { opacity: 1, y: 0 },
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] }
+};
+
+const staggerContainer = {
+    animate: { transition: { staggerChildren: 0.1 } }
+};
+
 const Home = () => {
     return (
-        <div className="min-h-screen bg-slate-900 text-white font-sans antialiased overflow-hidden selection:bg-emerald-500/30">
-            {/* Hero Section */}
-            <section className="relative pt-32 pb-24 px-6 container mx-auto text-center flex flex-col items-center">
-                <div className="absolute inset-x-0 -top-32 h-64 bg-gradient-to-b from-emerald-500/10 to-transparent blur-3xl opacity-50 z-[-1]" />
+        <div className="min-h-screen bg-[#020617] text-white font-sans antialiased overflow-hidden selection:bg-emerald-500/30">
+            {/* Background Blob Effects */}
+            <div className="fixed inset-0 z-0 pointer-events-none">
+                <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-emerald-500/5 rounded-full blur-[120px] animate-pulse-slow" />
+                <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-emerald-600/5 rounded-full blur-[120px] animate-pulse-slow delay-700" />
+            </div>
 
-                <div className="mb-6 flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700/50 text-xs text-slate-400 font-medium animate-fade-in">
+            {/* Hero Section */}
+            <motion.section
+                initial="initial"
+                animate="animate"
+                variants={staggerContainer}
+                className="relative pt-32 pb-24 px-6 container mx-auto text-center flex flex-col items-center z-10"
+            >
+                <motion.div variants={fadeInUp} className="mb-6 flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-400 font-bold uppercase tracking-widest animate-glow">
                     <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                     Bâtissez votre souveraineté financière
-                </div>
+                </motion.div>
 
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-br from-white via-slate-200 to-emerald-500 animate-fade-in delay-100 drop-shadow-sm">
-                    Richesse Souveraine
-                </h1>
+                <motion.h1 variants={fadeInUp} className="text-6xl md:text-8xl font-black tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-br from-white via-white to-emerald-500 leading-[1.1]">
+                    Richesse <br className="hidden md:block" /> Souveraine
+                </motion.h1>
 
-                <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in delay-200">
+                <motion.p variants={fadeInUp} className="text-lg md:text-2xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
                     Outils d'automatisation de niveau professionnel conçus pour scaler votre édition KDP, votre marketing sur les réseaux sociaux et vos opérations numériques.
-                </p>
+                </motion.p>
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in delay-300">
-                    <button className="btn btn-primary bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 rounded-xl font-semibold shadow-lg shadow-emerald-500/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
-                        Parcourir les Outils <Code size={20} />
+                <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-6 justify-center">
+                    <button className="btn btn-primary bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-5 rounded-2xl font-bold shadow-2xl shadow-emerald-500/20 transition-all hover:scale-105 active:scale-95 flex items-center gap-3 text-lg">
+                        Parcourir les Outils <Code size={22} />
                     </button>
-                    <button className="btn btn-secondary bg-slate-800 hover:bg-slate-700 text-slate-200 px-8 py-4 rounded-xl font-semibold border border-slate-700 hover:border-slate-600 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
-                        En savoir plus <ArrowRight size={20} />
+                    <button className="btn btn-secondary bg-white/5 hover:bg-white/10 text-white px-10 py-5 rounded-2xl font-bold border border-white/10 transition-all hover:scale-105 active:scale-95 flex items-center gap-3 text-lg backdrop-blur-md">
+                        En savoir plus <ArrowRight size={22} />
                     </button>
-                </div>
-            </section>
+                </motion.div>
+            </motion.section>
 
-            {/* Stats Section */}
-            <section className="py-12 border-y border-slate-800 bg-slate-900/50 backdrop-blur-sm">
-                <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            {/* Stats / Trust Section */}
+            <section className="py-20 relative z-10 border-y border-white/5 bg-white/[0.02] backdrop-blur-sm">
+                <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
                     {[
-                        { label: 'Téléchargements', value: '15k+' },
-                        { label: 'Utilisateurs Actifs', value: '8.2k' },
-                        { label: 'Boost d\'Efficacité', value: '300%' },
-                        { label: 'Support', value: '24/7' },
+                        { label: 'Téléchargements', value: '15k+', icon: Globe },
+                        { label: 'Clients Actifs', value: '8.2k', icon: CheckCircle },
+                        { label: 'Efficacité', value: '+300%', icon: Zap },
+                        { label: 'Sécurité', value: 'Enterprise', icon: ShieldCheck },
                     ].map((stat, i) => (
-                        <div key={i} className="flex flex-col gap-1">
-                            <span className="text-3xl font-bold text-white tracking-tighter">{stat.value}</span>
-                            <span className="text-sm text-slate-500 font-medium uppercase tracking-wider">{stat.label}</span>
-                        </div>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            key={i}
+                            className="flex flex-col items-center gap-2 group"
+                        >
+                            <stat.icon size={20} className="text-emerald-500 mb-2 group-hover:scale-110 transition-transform" />
+                            <span className="text-4xl font-black text-white tracking-tighter">{stat.value}</span>
+                            <span className="text-xs text-slate-500 font-bold uppercase tracking-[0.2em]">{stat.label}</span>
+                        </motion.div>
                     ))}
                 </div>
             </section>
 
             {/* Products Grid */}
-            <section className="py-24 container mx-auto px-6" id="products">
-                <div className="flex justify-between items-end mb-12">
+            <section className="py-32 container mx-auto px-6 relative z-10" id="products">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Outils Vedettes</h2>
-                        <p className="text-slate-400 max-w-xl">
-                            Scripts d'automatisation faits main pour remplacer le travail manuel ingrat. Conçus par des créateurs pour des créateurs.
+                        <h2 className="text-4xl md:text-5xl font-black text-white mb-4 tracking-tight">Outils Vedettes</h2>
+                        <p className="text-slate-400 max-w-xl text-lg font-light">
+                            Scripts d'automatisation faits main pour remplacer le travail manuel ingrat. <span className="text-emerald-400 font-medium">Libérez votre temps.</span>
                         </p>
                     </div>
-                    <button className="text-emerald-400 hover:text-emerald-300 font-medium flex items-center gap-2 transition-colors hidden md:flex">
-                        Tout voir <ArrowRight size={16} />
+                    <button className="group text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-2 transition-all uppercase tracking-widest text-sm">
+                        Tout voir <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </button>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {products.map((product) => (
-                        <ProductCard key={product.id} product={product} />
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    {products.map((product, idx) => (
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: idx * 0.1 }}
+                            key={product.id}
+                        >
+                            <ProductCard product={product} />
+                        </motion.div>
                     ))}
                 </div>
             </section>
 
-            {/* Footer CTA */}
-            <section className="py-24 bg-gradient-to-b from-slate-900 to-slate-950 border-t border-slate-800">
-                <div className="container mx-auto px-6 text-center">
-                    <div className="max-w-3xl mx-auto bg-slate-900 border border-slate-800 rounded-3xl p-12 relative overflow-hidden">
-                        <div className="absolute top-0 left-0 w-full h-full bg-grid-slate-800/[0.05] [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] pointer-events-none" />
-                        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-emerald-500/10 blur-[100px] rounded-full pointer-events-none" />
+            {/* CTA Section */}
+            <section className="py-40 relative z-10 overflow-hidden">
+                <div className="container mx-auto px-6">
+                    <motion.div
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="max-w-5xl mx-auto bg-gradient-to-br from-emerald-600/20 via-slate-900/40 to-slate-900/60 border border-emerald-500/20 rounded-[3rem] p-16 text-center relative overflow-hidden group hover:border-emerald-500/40 transition-all duration-500 shadow-3xl"
+                    >
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2 group-hover:bg-emerald-500/20 transition-all" />
 
-                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 relative z-10">
-                            Prêt à décupler vos revenus ?
+                        <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tighter leading-tight relative z-10">
+                            Prêt à décupler <br /> vos revenus ?
                         </h2>
-                        <p className="text-slate-400 text-lg mb-8 relative z-10">
-                            Rejoignez des centaines de créateurs qui utilisent nos outils pour bâtir leur empire numérique.
+                        <p className="text-slate-300 text-xl mb-12 relative z-10 font-light max-w-2xl mx-auto">
+                            Rejoignez des centaines de créateurs qui utilisent nos outils pour bâtir leur empire numérique sans effort manuel.
                         </p>
-                        <button className="relative z-10 btn btn-primary bg-white text-slate-950 hover:bg-slate-200 px-8 py-4 rounded-xl font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-white/5">
-                            Accéder maintenant <Zap size={18} className="ml-2 inline-block text-emerald-600" />
+                        <button className="relative z-10 btn btn-primary bg-emerald-500 hover:bg-emerald-400 text-slate-950 px-12 py-5 rounded-2xl font-black transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-emerald-500/20 text-lg uppercase tracking-tight">
+                            Commencer l'aventure <Zap size={20} className="ml-2 inline-block" />
                         </button>
-                    </div>
+                    </motion.div>
                 </div>
             </section>
         </div>
