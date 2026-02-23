@@ -1,0 +1,11 @@
+[
+    {
+        "id": "test-link-4d6e",
+        "title": "Test Link",
+        "category": "tech",
+        "subtitle": "Featured in latest video",
+        "url": "https://example.com",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": true
+    }
+]
