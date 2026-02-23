@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck } from 'lucide-react';
 import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
+import LinkHub from '../components/LinkHub';
+
 
 const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -75,6 +77,10 @@ const Home = () => {
                     ))}
                 </div>
             </section>
+
+            {/* Link Hub / Affiliate Deals */}
+            <LinkHub />
+
 
             {/* Products Grid */}
             <section className="py-32 container mx-auto px-6 relative z-10" id="products">

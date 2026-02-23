@@ -1,5 +1,6 @@
 import { Landmark, ShoppingBag, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import VaultSwitcher from './VaultSwitcher';
 
 const Header = () => {
     return (
@@ -14,7 +15,7 @@ const Header = () => {
                     </span>
                 </Link>
 
-                <nav className="flex items-center gap-8 hidden md:flex">
+                <nav className="flex items-center gap-8 hidden lg:flex">
                     <Link to="/" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
                         Produits
                     </Link>
@@ -27,6 +28,8 @@ const Header = () => {
                 </nav>
 
                 <div className="flex items-center gap-4">
+                    <VaultSwitcher />
+                    <div className="h-6 w-px bg-white/10 hidden sm:block mx-2" />
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 text-slate-400 hover:text-white transition-colors">
                         <Github size={20} />
                     </a>
@@ -42,5 +45,6 @@ const Header = () => {
         </header>
     );
 };
+
 
 export default Header;
