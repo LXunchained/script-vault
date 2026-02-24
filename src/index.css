@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  /* Colors - Richesse Souveraine (Emerald/Financial Theme) */
+  /* Colors - Richesse Souveraine (Amber/Gold Theme) */
   --bg-dark: #020617;
   --bg-card: #0f172a;
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
-  --primary: #10b981;
-  --accent: #34d399;
+  --primary: #f59e0b;
+  --accent: #fbbf24;
   --success: #10b981;
   --warning: #f59e0b;
   --error: #ef4444;
@@ -18,7 +18,7 @@
   --glass-bg: rgba(15, 23, 42, 0.7);
   --glass-border: 1px solid rgba(255, 255, 255, 0.08);
   --glass-reflection: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
-  --glow-color: rgba(16, 185, 129, 0.3);
+  --glow-color: rgba(245, 158, 11, 0.3);
 
   /* Typography */
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;

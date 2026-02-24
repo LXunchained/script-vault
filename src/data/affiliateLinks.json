@@ -1,12 +1,57 @@
 [
     {
+        "id": "the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-f564",
+        "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/0062641549?tag=louisamazonaf-20",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": true
+    },
+    {
+        "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-3aaa",
+        "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B08D9WJ9G8?tag=louisamazonaf-20",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": false
+    },
+    {
+        "id": "charger-compatible-with-hp-laptop-computer-65w-45w-smart-blue-tip-power-adapter-3119",
+        "title": "Charger Compatible with HP Laptop Computer 65W 45W Smart Blue Tip Power Adapter",
+        "category": "tech",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B089T1SX32?tag=louisamazonaf-20",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": false
+    },
+    {
+        "id": "fujifilm-instax-mini-instant-film-20-sheets-d6fe",
+        "title": "Fujifilm Instax Mini Instant Film (20 Sheets)",
+        "category": "tech",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B0GL9LHHJH?tag=louisamazonaf-20",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": false
+    },
+    {
+        "id": "7-hd-portable-carplay-wireless-touch-screen-double-din-car-stereo-compatible-apple-carplay-and-android-auto-with-gps-navigation-voice-control-mirror-link-bluetooth-c515",
+        "title": "7\" HD Portable Carplay Wireless Touch Screen Double Din Car Stereo Compatible Apple Carplay and Android Auto with GPS Navigation, Voice Control, Mirror Link, Bluetooth",
+        "category": "tech",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B0CQL47587?tag=louisamazonaf-20",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": false
+    },
+    {
         "id": "apple-earpods-headphones-with-usbc-plug-wired-ear-buds-with-builtin-remote-to-control-music-phone-calls-and-volume-98ff",
         "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
         "category": "tech",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/B0DCH8VDXF?tag=louisamazonaf-20",
         "icon": "\ud83d\udd25",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "jcblaon-outlet-extender-surge-protector--6-outlet-splitter-with-4-usb-ports-2-usb-c-multiple-plug-expander-wall-charger-3-sided-multi-plug-wall-adapter-power-strip-for-home-office-kitchen-travel-f5ed",
