@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck } from 'lucide-react';
 import LinkHub from '../components/LinkHub';
+import ProductsGrid from '../components/ProductsGrid';
 import { useLanguage } from '../contexts/LanguageContext';
 
 
@@ -82,7 +83,8 @@ const Home = () => {
             <LinkHub />
 
 
-            {/* Products Grid removed */}
+            {/* Products Grid */}
+            <ProductsGrid />
 
             {/* CTA Section */}
             <section className="py-40 relative z-10 overflow-hidden">
