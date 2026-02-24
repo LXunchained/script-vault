@@ -1,12 +1,21 @@
 [
     {
+        "id": "the-untethered-soul-the-journey-beyond-yourself-1eaf",
+        "title": "The Untethered Soul: The Journey Beyond Yourself",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
+        "icon": "\ud83d\udd25",
+        "isHighlighted": true
+    },
+    {
         "id": "the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-f564",
         "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0062641549?tag=louisamazonaf-20",
         "icon": "\ud83d\udd25",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-3aaa",

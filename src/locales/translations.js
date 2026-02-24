@@ -24,6 +24,10 @@ export const translations = {
         "home.products.desc": "Les outils essentiels que j'utilise personnellement pour mes investissements et ma protection.",
         "home.products.descHighlight": "Prenez le contrôle absolu.",
         "home.products.seeAll": "Voir les vidéos",
+        "home.products.cat.all": "Tout",
+        "home.products.cat.tech": "Tech",
+        "home.products.cat.finance": "Finance",
+        "home.products.cat.books": "Livres",
 
         "home.cta.title": "Prêt à reprendre <br /> le pouvoir sur votre vie ?",
         "home.cta.desc": "Rejoignez notre réseau de souverains financiers qui bâtissent leur empire hors du système traditionnel.",
@@ -58,6 +62,10 @@ export const translations = {
         "home.products.desc": "The essential tools I personally use for my investments and protection.",
         "home.products.descHighlight": "Take absolute control.",
         "home.products.seeAll": "Watch videos",
+        "home.products.cat.all": "All",
+        "home.products.cat.tech": "Tech",
+        "home.products.cat.finance": "Finance",
+        "home.products.cat.books": "Books",
 
         "home.cta.title": "Ready to take back <br /> power over your life?",
         "home.cta.desc": "Join our network of financial sovereigns building their empire outside the traditional system.",
