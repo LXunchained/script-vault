@@ -14,13 +14,8 @@
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
-<<<<<<< Updated upstream
-        "icon": "\ud83d\udd25",
-        "isHighlighted": true
-=======
         "icon": "🔥",
         "isHighlighted": false
->>>>>>> Stashed changes
     },
     {
         "id": "the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-f564",
