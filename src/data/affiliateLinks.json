@@ -1,12 +1,26 @@
 [
     {
+        "id": "the-let-them-theory-a-lifechanging-tool-that-millions-of-people-cant-stop-talkin-69fe",
+        "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/1401971369?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "the-untethered-soul-the-journey-beyond-yourself-1eaf",
         "title": "The Untethered Soul: The Journey Beyond Yourself",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
+<<<<<<< Updated upstream
         "icon": "\ud83d\udd25",
         "isHighlighted": true
+=======
+        "icon": "🔥",
+        "isHighlighted": false
+>>>>>>> Stashed changes
     },
     {
         "id": "the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-f564",
