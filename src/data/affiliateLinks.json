@@ -1,83 +1,72 @@
 [
     {
-        "id": "the-let-them-theory-a-lifechanging-tool-that-millions-of-people-cant-stop-talkin-69fe",
-        "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
+        "id": "the-let-them-theory",
+        "title": "The Let Them Theory",
+        "category": "books",
+        "subtitle": "A Life-Changing Tool That Millions of People Can't Stop Talking About",
         "url": "https://www.amazon.com/dp/1401971369?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": true
+        "icon": "📖",
+        "isHighlighted": true,
+        "brand": "heritage"
     },
     {
-        "id": "the-untethered-soul-the-journey-beyond-yourself-1eaf",
-        "title": "The Untethered Soul: The Journey Beyond Yourself",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
+        "id": "the-untethered-soul",
+        "title": "The Untethered Soul",
+        "category": "books",
+        "subtitle": "The Journey Beyond Yourself",
         "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
         "icon": "🔥",
-        "isHighlighted": false
+        "isHighlighted": false,
+        "brand": "heritage"
     },
     {
-        "id": "the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-f564",
-        "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
+        "id": "the-subtle-art-of-not-giving-a-fck",
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "category": "books",
+        "subtitle": "A Counterintuitive Approach to Living a Good Life",
         "url": "https://www.amazon.com/dp/0062641549?tag=louisamazonaf-20",
-        "icon": "\ud83d\udd25",
-        "isHighlighted": false
+        "icon": "🔥",
+        "isHighlighted": false,
+        "brand": "heritage"
     },
     {
-        "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-3aaa",
-        "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
+        "id": "the-psychology-of-money",
+        "title": "The Psychology of Money",
+        "category": "books",
+        "subtitle": "Timeless Lessons on Wealth, Greed, and Happiness",
         "url": "https://www.amazon.com/dp/B08D9WJ9G8?tag=louisamazonaf-20",
-        "icon": "\ud83d\udd25",
-        "isHighlighted": false
+        "icon": "💰",
+        "isHighlighted": false,
+        "brand": "richesse"
     },
     {
-        "id": "xapo-bank-la-souverainet\u00e9-financi\u00e8re-4f2e",
-        "title": "Xapo Bank: La Souverainet\u00e9 Financi\u00e8re",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
-        "icon": "\ud83c\udfe6",
-        "isHighlighted": false
+        "id": "atomic-habits",
+        "title": "Atomic Habits",
+        "category": "books",
+        "subtitle": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "url": "https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20",
+        "icon": "⚡",
+        "isHighlighted": false,
+        "brand": "heritage"
     },
     {
-        "id": "richesse-souveraine--xapo-bank-6ea6",
-        "title": "Richesse Souveraine - Xapo Bank",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
-        "icon": "\ud83c\udfdb\ufe0f",
-        "isHighlighted": false
+        "id": "sapiens",
+        "title": "Sapiens: A Brief History of Humankind",
+        "category": "books",
+        "subtitle": "A groundbreaking narrative of humanity's creation and evolution",
+        "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
+        "icon": "🌍",
+        "isHighlighted": false,
+        "brand": "heritage"
     },
     {
         "id": "xapo-membership",
-        "title": "Xapo Bank Institutional Account",
+        "title": "Xapo Bank — Souveraineté Financière",
         "category": "finance",
-        "subtitle": "Secure your wealth with Bitcoin-enabled banking",
+        "subtitle": "Ouvrez un compte Bitcoin-enabled et sécurisez votre patrimoine",
         "url": "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
-        "icon": "\ud83c\udfdb\ufe0f",
-        "isHighlighted": false
-    },
-    {
-        "id": "automated-trading-kit",
-        "title": "Neural Trading Framework",
-        "category": "investing",
-        "subtitle": "Algorithm-based portfolio management",
-        "url": "https://richesse-souveraine.com/deal431",
-        "icon": "\ud83d\udcc8",
-        "isHighlighted": false
-    },
-    {
-        "id": "global-wealth-script",
-        "title": "Global Wealth Architect v4",
-        "category": "automation",
-        "subtitle": "Deploy your financial sovereignty script",
-        "url": "https://richesse-souveraine.com/scripts/vault",
-        "icon": "\ud83e\udd16",
-        "isHighlighted": false
+        "icon": "🏛️",
+        "isHighlighted": false,
+        "brand": "richesse"
     }
 ]
