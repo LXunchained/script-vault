@@ -1,12 +1,21 @@
 [
     {
+        "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-87d1",
+        "title": "The Psychology of Money: Timeless lessons on wealth, greed, and happiness",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-the-art-of-living-a30d",
         "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0735211736?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "the-aidriven-leader-harnessing-ai-to-make-faster-smarter-decisions-a141",
