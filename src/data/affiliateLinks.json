@@ -1,12 +1,21 @@
 [
     {
+        "id": "the-simple-path-to-wealth-your-road-map-to-financial-independence-and-a-rich-fre-8131",
+        "title": "The Simple Path to Wealth: Your Road Map to Financial Independence and a Rich, Free Life",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B0DQJMVM59?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-87d1",
         "title": "The Psychology of Money: Timeless lessons on wealth, greed, and happiness",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-the-art-of-living-a30d",
