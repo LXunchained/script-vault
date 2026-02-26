@@ -1,12 +1,21 @@
 [
     {
-        "id": "the-48-laws-of-power-2f8e",
+        "id": "the-48-laws-of-power-6354",
         "title": "The 48 Laws of Power",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0140280197?tag=louisamazonaf-20",
         "icon": "💰",
         "isHighlighted": true
+    },
+    {
+        "id": "the-48-laws-of-power-2f8e",
+        "title": "The 48 Laws of Power",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/0140280197?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": false
     },
     {
         "id": "the-let-them-theory-a-lifechanging-tool-that-millions-of-people-cant-stop-talkin-4ac1",
