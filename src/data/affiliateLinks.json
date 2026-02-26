@@ -1,12 +1,21 @@
 [
     {
+        "id": "unreasonable-hospitality-the-remarkable-power-of-giving-people-more-than-they-ex-16de",
+        "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/0593418573?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "the-simple-path-to-wealth-your-road-map-to-financial-independence-and-a-rich-fre-8131",
         "title": "The Simple Path to Wealth: Your Road Map to Financial Independence and a Rich, Free Life",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/B0DQJMVM59?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-87d1",
