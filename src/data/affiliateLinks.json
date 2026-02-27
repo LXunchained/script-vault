@@ -1,12 +1,21 @@
 [
     {
+        "id": "influence-the-psychology-of-persuasion-revised-edition-cb2a",
+        "title": "Influence: The Psychology of Persuasion, Revised Edition",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/006124189X?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "your-money-or-your-life-9-steps-to-transforming-your-relationship-with-money-and-76d7",
         "title": "Your Money or Your Life: 9 Steps to Transforming Your Relationship with Money and Achieving Financial Independence: Fully Revised and Updated for 2018",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0143115766?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "the-silent-patient-13e2",
