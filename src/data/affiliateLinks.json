@@ -1,12 +1,21 @@
 [
     {
+        "id": "rich-dad-poor-dad-what-the-rich-teach-their-kids-about-money-that-the-poor-and-m-cfc8",
+        "title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B07C7M8SX9?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "the-lean-startup-how-todays-entrepreneurs-use-continuous-innovation-to-create-ra-5678",
         "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0307887898?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "influence-the-psychology-of-persuasion-revised-edition-cb2a",
