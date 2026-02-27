@@ -1,12 +1,21 @@
 [
     {
+        "id": "drive-the-surprising-truth-about-what-motivates-us-ccd5",
+        "title": "Drive: The Surprising Truth About What Motivates Us",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B004P1JDJO?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "thinking-fast-and-slow-f7f5",
         "title": "Thinking, Fast and Slow",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/B00555X8OA?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "outliers-the-story-of-success-d659",
