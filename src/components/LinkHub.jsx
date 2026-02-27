@@ -1,62 +1,149 @@
-import { ExternalLink, Sparkles, Zap, TrendingUp } from 'lucide-react';
+import { ExternalLink, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import links from '../data/affiliateLinks.json';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const LinkHub = () => {
     const { t } = useLanguage();
-    const highlightedLinks = links.filter(l => l.isHighlighted);
+    // Show highlighted items first, up to 6
+    const displayLinks = [...links]
+        .sort((a, b) => (b.isHighlighted ? 1 : 0) - (a.isHighlighted ? 1 : 0))
+        .slice(0, 6);
 
     return (
-        <section className="py-12 container mx-auto px-6 relative z-10">
-            <div className="flex items-center gap-3 mb-8">
-                <div className="p-2 bg-amber-500/20 rounded-lg">
-                    <Zap size={20} className="text-amber-400" />
+        <section className="relative z-10" style={{ padding: '3rem 0' }}>
+            <div className="section-container">
+                {/* Section header */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2rem' }}>
+                    <div style={{
+                        padding: '0.5rem',
+                        background: 'rgba(245,158,11,0.15)',
+                        borderRadius: '0.5rem',
+                        display: 'flex'
+                    }}>
+                        <Zap size={18} color="#fbbf24" />
+                    </div>
+                    <h2 style={{
+                        fontSize: '1.25rem',
+                        fontWeight: 900,
+                        color: '#fff',
+                        letterSpacing: '0.05em',
+                        textTransform: 'uppercase',
+                        margin: 0
+                    }}>{t('home.hub.title')}</h2>
                 </div>
-                <h2 className="text-2xl font-black text-white tracking-tight uppercase">{t('home.hub.title')}</h2>
-            </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {highlightedLinks.map((link, idx) => (
-                    <motion.a
-                        key={link.id}
-                        href={link.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        initial={{ opacity: 0, scale: 0.95 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        whileHover={{ y: -4, scale: 1.02 }}
-                        transition={{ delay: idx * 0.1 }}
-                        className="group relative overflow-hidden p-6 rounded-3xl bg-gradient-to-br from-white/[0.03] to-white/[0.08] border border-white/10 hover:border-amber-500/40 transition-all flex items-center justify-between"
-                    >
-                        <div className="absolute inset-0 bg-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                {/* Responsive grid */}
+                <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                    gap: '1.25rem'
+                }}>
+                    {displayLinks.map((link, idx) => (
+                        <motion.a
+                            key={link.id}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            whileHover={{ y: -3, scale: 1.02 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: idx * 0.07 }}
+                            style={{
+                                position: 'relative',
+                                overflow: 'hidden',
+                                padding: '1.25rem',
+                                borderRadius: '1.25rem',
+                                background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.07) 100%)',
+                                border: link.isHighlighted
+                                    ? '1px solid rgba(245,158,11,0.5)'
+                                    : '1px solid rgba(255,255,255,0.08)',
+                                boxShadow: link.isHighlighted
+                                    ? '0 8px 32px rgba(245,158,11,0.08)'
+                                    : 'none',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                gap: '0.75rem',
+                                textDecoration: 'none',
+                                transition: 'border-color 0.2s, box-shadow 0.2s, transform 0.2s',
+                                cursor: 'pointer'
+                            }}
+                        >
+                            {/* Highlighted badge */}
+                            {link.isHighlighted && (
+                                <div style={{
+                                    position: 'absolute',
+                                    top: '0.6rem',
+                                    right: '0.6rem',
+                                    padding: '0.1rem 0.5rem',
+                                    borderRadius: '9999px',
+                                    background: '#f59e0b',
+                                    fontSize: '0.6rem',
+                                    fontWeight: 900,
+                                    color: '#0f172a',
+                                    letterSpacing: '0.1em',
+                                    textTransform: 'uppercase',
+                                    zIndex: 10
+                                }}>★</div>
+                            )}
 
-                        <div className="flex items-center gap-5 relative z-10">
-                            <div className="text-3xl grayscale group-hover:grayscale-0 transition-all transform group-hover:scale-110">
-                                {link.icon}
-                            </div>
-                            <div className="flex flex-col">
-                                <span className="text-xs font-black uppercase tracking-[0.2em] text-amber-500 mb-1">
-                                    {link.category}
+                            {/* Icon + text */}
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', minWidth: 0, flex: 1 }}>
+                                <span style={{ fontSize: '1.75rem', flexShrink: 0, lineHeight: 1 }}>
+                                    {link.icon}
                                 </span>
-                                <h3 className="text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
-                                    {link.title}
-                                </h3>
-                                <p className="text-[10px] text-slate-400 font-medium">
-                                    {link.subtitle}
-                                </p>
+                                <div style={{ minWidth: 0 }}>
+                                    <span style={{
+                                        display: 'block',
+                                        fontSize: '0.6rem',
+                                        fontWeight: 800,
+                                        letterSpacing: '0.15em',
+                                        textTransform: 'uppercase',
+                                        color: '#f59e0b',
+                                        marginBottom: '0.2rem'
+                                    }}>{link.category}</span>
+                                    <h3 style={{
+                                        margin: 0,
+                                        fontSize: '0.875rem',
+                                        fontWeight: 700,
+                                        color: '#fff',
+                                        lineHeight: 1.3,
+                                        overflow: 'hidden',
+                                        display: '-webkit-box',
+                                        WebkitLineClamp: 2,
+                                        WebkitBoxOrient: 'vertical'
+                                    }}>{link.title}</h3>
+                                    <p style={{
+                                        margin: '0.2rem 0 0',
+                                        fontSize: '0.7rem',
+                                        color: '#64748b',
+                                        fontWeight: 500,
+                                        overflow: 'hidden',
+                                        whiteSpace: 'nowrap',
+                                        textOverflow: 'ellipsis'
+                                    }}>{link.subtitle}</p>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="p-3 bg-white/5 rounded-2xl group-hover:bg-amber-500 text-slate-400 group-hover:text-white transition-all">
-                            <ExternalLink size={18} />
-                        </div>
-                    </motion.a>
-                ))}
+                            {/* Arrow */}
+                            <div style={{
+                                flexShrink: 0,
+                                padding: '0.6rem',
+                                borderRadius: '0.75rem',
+                                background: 'rgba(255,255,255,0.05)',
+                                color: '#64748b',
+                                display: 'flex'
+                            }}>
+                                <ExternalLink size={16} />
+                            </div>
+                        </motion.a>
+                    ))}
+                </div>
             </div>
         </section>
     );
 };
 
 export default LinkHub;
-
