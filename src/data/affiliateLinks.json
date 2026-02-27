@@ -1,12 +1,22 @@
 [
     {
+        "id": "the-richest-man-in-babylon-cb2c",
+        "title": "The Richest Man in Babylon",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/1505339111?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "1505339111"
+    },
+    {
         "id": "the-intelligent-investor-rev-ed-the-definitive-book-on-value-investing--a-timele-6a82",
         "title": "The Intelligent Investor, Rev. Ed: The Definitive Book on Value Investing – A Timeless Investment Strategy for Navigating the Stock Market and Mastering Finance",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/B000FC12C8?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "B000FC12C8"
     },
     {
