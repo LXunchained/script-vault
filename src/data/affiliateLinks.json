@@ -1,226 +1,108 @@
 [
     {
-        "id": "drive-the-surprising-truth-about-what-motivates-us-ccd5",
+        "id": "drive-motivates-us",
         "title": "Drive: The Surprising Truth About What Motivates Us",
         "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B004P1JDJO?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": true
-    },
-    {
-        "id": "thinking-fast-and-slow-f7f5",
-        "title": "Thinking, Fast and Slow",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B00555X8OA?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "outliers-the-story-of-success-d659",
-        "title": "Outliers: The Story of Success",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B001ANYDAO?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-4hour-workweek-expanded-and-updated-expanded-and-updated-with-over-100-new-p-b5d4",
-        "title": "The 4-Hour Workweek, Expanded and Updated: Expanded and Updated, With Over 100 New Pages of Cutting-Edge Content.",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B002WE46UW?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "rich-dad-poor-dad-what-the-rich-teach-their-kids-about-money-that-the-poor-and-m-cfc8",
-        "title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B07C7M8SX9?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-lean-startup-how-todays-entrepreneurs-use-continuous-innovation-to-create-ra-5678",
-        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0307887898?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "influence-the-psychology-of-persuasion-revised-edition-cb2a",
-        "title": "Influence: The Psychology of Persuasion, Revised Edition",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/006124189X?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "your-money-or-your-life-9-steps-to-transforming-your-relationship-with-money-and-76d7",
-        "title": "Your Money or Your Life: 9 Steps to Transforming Your Relationship with Money and Achieving Financial Independence: Fully Revised and Updated for 2018",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0143115766?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-silent-patient-13e2",
-        "title": "The Silent Patient",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/1250301696?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "sapiens-a-brief-history-of-humankind-68b7",
-        "title": "Sapiens: A Brief History of Humankind",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "unreasonable-hospitality-the-remarkable-power-of-giving-people-more-than-they-ex-16de",
-        "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0593418573?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-simple-path-to-wealth-your-road-map-to-financial-independence-and-a-rich-fre-8131",
-        "title": "The Simple Path to Wealth: Your Road Map to Financial Independence and a Rich, Free Life",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B0DQJMVM59?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-87d1",
-        "title": "The Psychology of Money: Timeless lessons on wealth, greed, and happiness",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-the-art-of-living-a30d",
-        "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0735211736?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-aidriven-leader-harnessing-ai-to-make-faster-smarter-decisions-a141",
-        "title": "The AI-Driven Leader: Harnessing AI to Make Faster, Smarter Decisions",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/B0DDDJ8P2S?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-48-laws-of-power-6354",
-        "title": "The 48 Laws of Power",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0140280197?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-48-laws-of-power-2f8e",
-        "title": "The 48 Laws of Power",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/0140280197?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-let-them-theory-a-lifechanging-tool-that-millions-of-people-cant-stop-talkin-4ac1",
-        "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About",
-        "category": "finance",
-        "subtitle": "Featured in latest video",
-        "url": "https://www.amazon.com/dp/1401971369?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false
-    },
-    {
-        "id": "the-let-them-theory",
-        "title": "The Let Them Theory",
-        "category": "books",
-        "subtitle": "A Life-Changing Tool That Millions of People Can't Stop Talking About",
-        "url": "https://www.amazon.com/dp/1401971369?tag=louisamazonaf-20",
-        "isbn": "1401971369",
-        "icon": "📖",
-        "isHighlighted": false,
-        "brand": "heritage"
-    },
-    {
-        "id": "the-untethered-soul",
-        "title": "The Untethered Soul",
-        "category": "books",
-        "subtitle": "The Journey Beyond Yourself",
-        "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
-        "isbn": "1572245379",
-        "icon": "🔥",
-        "isHighlighted": false,
-        "brand": "heritage"
-    },
-    {
-        "id": "the-subtle-art",
-        "title": "The Subtle Art of Not Giving a F*ck",
-        "category": "books",
-        "subtitle": "A Counterintuitive Approach to Living a Good Life",
-        "url": "https://www.amazon.com/dp/0062641549?tag=louisamazonaf-20",
-        "isbn": "0062641549",
-        "icon": "🔥",
-        "isHighlighted": false,
-        "brand": "heritage"
-    },
-    {
-        "id": "atomic-habits",
-        "title": "Atomic Habits",
-        "category": "books",
-        "subtitle": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
-        "url": "https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20",
-        "isbn": "0735211299",
+        "subtitle": "Comprendre ce qui motive vraiment les gens",
+        "url": "https://www.amazon.com/dp/1594484805?tag=louisamazonaf-20",
+        "isbn": "1594484805",
         "icon": "⚡",
         "isHighlighted": true,
-        "brand": "heritage"
+        "brand": "richesse"
     },
     {
-        "id": "sapiens",
-        "title": "Sapiens: A Brief History of Humankind",
-        "category": "books",
-        "subtitle": "A groundbreaking narrative of humanity's creation and evolution",
-        "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
-        "isbn": "0062316095",
-        "icon": "🌍",
+        "id": "thinking-fast-and-slow",
+        "title": "Thinking, Fast and Slow",
+        "category": "finance",
+        "subtitle": "Les deux systèmes qui façonnent nos décisions",
+        "url": "https://www.amazon.com/dp/0374533555?tag=louisamazonaf-20",
+        "isbn": "0374533555",
+        "icon": "🧠",
+        "isHighlighted": true,
+        "brand": "richesse"
+    },
+    {
+        "id": "outliers-story-of-success",
+        "title": "Outliers: The Story of Success",
+        "category": "finance",
+        "subtitle": "Pourquoi certaines personnes réussissent",
+        "url": "https://www.amazon.com/dp/0316017930?tag=louisamazonaf-20",
+        "isbn": "0316017930",
+        "icon": "🎯",
         "isHighlighted": false,
-        "brand": "heritage"
+        "brand": "richesse"
+    },
+    {
+        "id": "4-hour-workweek",
+        "title": "The 4-Hour Workweek",
+        "category": "finance",
+        "subtitle": "Travaillez moins, vivez plus",
+        "url": "https://www.amazon.com/dp/0307465357?tag=louisamazonaf-20",
+        "isbn": "0307465357",
+        "icon": "🚀",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "lean-startup",
+        "title": "The Lean Startup",
+        "category": "finance",
+        "subtitle": "Innovation continue pour créer des business rentables",
+        "url": "https://www.amazon.com/dp/0307887898?tag=louisamazonaf-20",
+        "isbn": "0307887898",
+        "icon": "📊",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "influence-psychology-persuasion",
+        "title": "Influence: The Psychology of Persuasion",
+        "category": "finance",
+        "subtitle": "Les principes de la persuasion appliqués",
+        "url": "https://www.amazon.com/dp/006124189X?tag=louisamazonaf-20",
+        "isbn": "006124189X",
+        "icon": "🤝",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "your-money-or-your-life",
+        "title": "Your Money or Your Life",
+        "category": "finance",
+        "subtitle": "9 étapes pour transformer votre relation à l'argent",
+        "url": "https://www.amazon.com/dp/0143115766?tag=louisamazonaf-20",
+        "isbn": "0143115766",
+        "icon": "💰",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "simple-path-to-wealth",
+        "title": "The Simple Path to Wealth",
+        "category": "finance",
+        "subtitle": "La route vers l'indépendance financière",
+        "url": "https://www.amazon.com/dp/1533667926?tag=louisamazonaf-20",
+        "isbn": "1533667926",
+        "icon": "📈",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "48-laws-of-power",
+        "title": "The 48 Laws of Power",
+        "category": "finance",
+        "subtitle": "Les lois intemporelles du pouvoir",
+        "url": "https://www.amazon.com/dp/0140280197?tag=louisamazonaf-20",
+        "isbn": "0140280197",
+        "icon": "👑",
+        "isHighlighted": false,
+        "brand": "richesse"
     },
     {
         "id": "the-psychology-of-money",
         "title": "The Psychology of Money",
-        "category": "books",
-        "subtitle": "Timeless Lessons on Wealth, Greed, and Happiness",
+        "category": "finance",
+        "subtitle": "Leçons intemporelles sur la richesse et le bonheur",
         "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
         "isbn": "0857197681",
         "icon": "💰",
@@ -228,10 +110,21 @@
         "brand": "richesse"
     },
     {
+        "id": "daily-stoic",
+        "title": "The Daily Stoic",
+        "category": "finance",
+        "subtitle": "366 méditations sur la sagesse et la persévérance",
+        "url": "https://www.amazon.com/dp/0735211736?tag=louisamazonaf-20",
+        "isbn": "0735211736",
+        "icon": "🏛️",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
         "id": "richest-man-in-babylon",
         "title": "The Richest Man in Babylon",
         "category": "finance",
-        "subtitle": "The original guide to financial success — timeless wealth principles",
+        "subtitle": "Le guide original du succès financier",
         "url": "https://www.amazon.com/dp/1505339111?tag=louisamazonaf-20",
         "isbn": "1505339111",
         "icon": "🏛️",
@@ -242,7 +135,7 @@
         "id": "rich-dad-poor-dad",
         "title": "Rich Dad Poor Dad",
         "category": "finance",
-        "subtitle": "What the Rich Teach Their Kids About Money",
+        "subtitle": "Ce que les riches apprennent à leurs enfants",
         "url": "https://www.amazon.com/dp/1612680194?tag=louisamazonaf-20",
         "isbn": "1612680194",
         "icon": "💎",
@@ -253,7 +146,7 @@
         "id": "intelligent-investor",
         "title": "The Intelligent Investor",
         "category": "finance",
-        "subtitle": "The Definitive Book on Value Investing",
+        "subtitle": "La bible de l'investissement en valeur",
         "url": "https://www.amazon.com/dp/0062312685?tag=louisamazonaf-20",
         "isbn": "0062312685",
         "icon": "📈",
@@ -264,7 +157,7 @@
         "id": "millionaire-fastlane",
         "title": "The Millionaire Fastlane",
         "category": "finance",
-        "subtitle": "Crack the Code to Wealth and Live Rich for a Lifetime",
+        "subtitle": "Le code pour devenir riche et vivre libre",
         "url": "https://www.amazon.com/dp/0984358102?tag=louisamazonaf-20",
         "isbn": "0984358102",
         "icon": "🚀",
@@ -275,7 +168,7 @@
         "id": "die-with-zero",
         "title": "Die with Zero",
         "category": "finance",
-        "subtitle": "Getting All You Can from Your Money and Your Life",
+        "subtitle": "Maximiser vos expériences, pas votre épargne",
         "url": "https://www.amazon.com/dp/0358099765?tag=louisamazonaf-20",
         "isbn": "0358099765",
         "icon": "🎯",
@@ -291,5 +184,60 @@
         "icon": "🏛️",
         "isHighlighted": true,
         "brand": "richesse"
+    },
+    {
+        "id": "the-let-them-theory",
+        "title": "The Let Them Theory",
+        "category": "books",
+        "subtitle": "Libérez-vous du besoin de contrôler les autres",
+        "url": "https://www.amazon.com/dp/1401971369?tag=louisamazonaf-20",
+        "isbn": "1401971369",
+        "icon": "📖",
+        "isHighlighted": false,
+        "brand": "heritage"
+    },
+    {
+        "id": "the-untethered-soul",
+        "title": "The Untethered Soul",
+        "category": "books",
+        "subtitle": "Un voyage au-delà de votre mental",
+        "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
+        "isbn": "1572245379",
+        "icon": "🌿",
+        "isHighlighted": false,
+        "brand": "heritage"
+    },
+    {
+        "id": "the-subtle-art",
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "category": "books",
+        "subtitle": "Une approche contre-intuitive pour vivre mieux",
+        "url": "https://www.amazon.com/dp/0062641549?tag=louisamazonaf-20",
+        "isbn": "0062641549",
+        "icon": "🔥",
+        "isHighlighted": false,
+        "brand": "heritage"
+    },
+    {
+        "id": "atomic-habits",
+        "title": "Atomic Habits",
+        "category": "books",
+        "subtitle": "Construisez de bonnes habitudes, brisez les mauvaises",
+        "url": "https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20",
+        "isbn": "0735211299",
+        "icon": "⚡",
+        "isHighlighted": true,
+        "brand": "heritage"
+    },
+    {
+        "id": "sapiens",
+        "title": "Sapiens: A Brief History of Humankind",
+        "category": "books",
+        "subtitle": "Une histoire de l'humanité racontée autrement",
+        "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
+        "isbn": "0062316095",
+        "icon": "🌍",
+        "isHighlighted": false,
+        "brand": "heritage"
     }
 ]
