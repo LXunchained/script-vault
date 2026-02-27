@@ -1,12 +1,21 @@
 [
     {
+        "id": "outliers-the-story-of-success-d659",
+        "title": "Outliers: The Story of Success",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/B001ANYDAO?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "the-4hour-workweek-expanded-and-updated-expanded-and-updated-with-over-100-new-p-b5d4",
         "title": "The 4-Hour Workweek, Expanded and Updated: Expanded and Updated, With Over 100 New Pages of Cutting-Edge Content.",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/B002WE46UW?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "rich-dad-poor-dad-what-the-rich-teach-their-kids-about-money-that-the-poor-and-m-cfc8",
