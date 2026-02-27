@@ -1,5 +1,15 @@
 [
     {
+        "id": "the-intelligent-investor-rev-ed-the-definitive-book-on-value-investing--a-timele-6a82",
+        "title": "The Intelligent Investor, Rev. Ed: The Definitive Book on Value Investing – A Timeless Investment Strategy for Navigating the Stock Market and Mastering Finance",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/B000FC12C8?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "B000FC12C8"
+    },
+    {
         "id": "drive-motivates-us",
         "title": "Drive: The Surprising Truth About What Motivates Us",
         "category": "finance",
@@ -7,7 +17,7 @@
         "url": "https://www.amazon.com/dp/1594484805?tag=louisamazonaf-20",
         "isbn": "1594484805",
         "icon": "⚡",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "richesse"
     },
     {
@@ -18,7 +28,7 @@
         "url": "https://www.amazon.com/dp/0374533555?tag=louisamazonaf-20",
         "isbn": "0374533555",
         "icon": "🧠",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "richesse"
     },
     {
@@ -106,7 +116,7 @@
         "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
         "isbn": "0857197681",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "richesse"
     },
     {
@@ -128,7 +138,7 @@
         "url": "https://www.amazon.com/dp/1505339111?tag=louisamazonaf-20",
         "isbn": "1505339111",
         "icon": "🏛️",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "richesse"
     },
     {
@@ -139,7 +149,7 @@
         "url": "https://www.amazon.com/dp/1612680194?tag=louisamazonaf-20",
         "isbn": "1612680194",
         "icon": "💎",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "richesse"
     },
     {
@@ -182,7 +192,7 @@
         "subtitle": "Ouvrez un compte Bitcoin-enabled et sécurisez votre patrimoine",
         "url": "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
         "icon": "🏛️",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "richesse"
     },
     {
@@ -226,7 +236,7 @@
         "url": "https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20",
         "isbn": "0735211299",
         "icon": "⚡",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "brand": "heritage"
     },
     {
