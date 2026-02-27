@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck, BookOpen, TrendingUp } from 'lucide-react';
 import LinkHub from '../components/LinkHub';
 import ProductsGrid from '../components/ProductsGrid';
 import { useLanguage } from '../contexts/LanguageContext';
-
 
 const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -20,90 +19,112 @@ const Home = () => {
 
     return (
         <div className="min-h-screen bg-[#020617] text-white font-sans antialiased overflow-hidden selection:bg-amber-500/30">
-            {/* Background Blob Effects */}
-            <div className="fixed inset-0 z-0 pointer-events-none">
-                <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-amber-500/5 rounded-full blur-[120px] animate-pulse-slow" />
-                <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-amber-600/5 rounded-full blur-[120px] animate-pulse-slow delay-700" />
+            {/* Background ambient blobs */}
+            <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+                <div className="absolute top-[-15%] left-[-10%] w-[55%] h-[55%] bg-amber-500/[0.06] rounded-full blur-[130px] animate-pulse-slow" />
+                <div className="absolute bottom-[-15%] right-[-10%] w-[55%] h-[55%] bg-amber-600/[0.05] rounded-full blur-[130px] animate-pulse-slow" style={{ animationDelay: '4s' }} />
+                <div className="absolute top-[40%] left-[50%] w-[30%] h-[30%] bg-violet-600/[0.03] rounded-full blur-[100px] animate-pulse-slow" style={{ animationDelay: '2s' }} />
+                {/* Subtle grid overlay */}
+                <div className="absolute inset-0 opacity-[0.015]" style={{
+                    backgroundImage: 'linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px)',
+                    backgroundSize: '60px 60px'
+                }} />
             </div>
 
-            {/* Hero Section */}
+            {/* ── Hero ─────────────────────────────────────── */}
             <motion.section
                 initial="initial"
                 animate="animate"
                 variants={staggerContainer}
-                className="relative pt-32 pb-24 px-6 container mx-auto text-center flex flex-col items-center z-10"
+                className="relative pt-36 pb-28 px-6 section-container text-center flex flex-col items-center z-10"
             >
                 <motion.div variants={fadeInUp} className="mb-6 flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-xs text-amber-400 font-bold uppercase tracking-widest animate-glow">
-                    <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                     {t('home.subtitle')}
                 </motion.div>
 
-                <motion.h1 variants={fadeInUp} className="text-6xl md:text-8xl font-black tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-br from-white via-white to-amber-500 leading-[1.1]" dangerouslySetInnerHTML={{ __html: t('home.title') }}>
-                </motion.h1>
+                <motion.h1
+                    variants={fadeInUp}
+                    className="text-6xl md:text-8xl font-black tracking-tighter mb-6 leading-[1.05]"
+                    style={{
+                        background: 'linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #fbbf24 100%)',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent'
+                    }}
+                    dangerouslySetInnerHTML={{ __html: t('home.title') }}
+                />
 
-                <motion.p variants={fadeInUp} className="text-lg md:text-2xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
+                <motion.p variants={fadeInUp} className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
                     {t('home.desc')}
                 </motion.p>
 
-                <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <button className="btn btn-primary bg-amber-600 hover:bg-amber-500 text-white px-10 py-5 rounded-2xl font-bold shadow-2xl shadow-amber-500/20 transition-all hover:scale-105 active:scale-95 flex items-center gap-3 text-lg">
-                        {t('home.browse')} <Code size={22} />
+                <motion.div variants={fadeInUp} className="hero-actions">
+                    <button className="btn btn-primary text-base">
+                        {t('home.browse')} <Code size={18} />
                     </button>
-                    <button className="btn btn-secondary bg-white/5 hover:bg-white/10 text-white px-10 py-5 rounded-2xl font-bold border border-white/10 transition-all hover:scale-105 active:scale-95 flex items-center gap-3 text-lg backdrop-blur-md">
-                        {t('home.learnMore')} <ArrowRight size={22} />
+                    <button className="btn btn-secondary text-base">
+                        {t('home.learnMore')} <ArrowRight size={18} />
                     </button>
                 </motion.div>
             </motion.section>
 
-            {/* Stats / Trust Section */}
-            <section className="py-20 relative z-10 border-y border-white/5 bg-white/[0.02] backdrop-blur-sm">
-                <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-                    {[
-                        { label: t('home.stats.downloads'), value: '15k+', icon: Globe },
-                        { label: t('home.stats.clients'), value: '8.2k', icon: CheckCircle },
-                        { label: t('home.stats.efficiency'), value: '+300%', icon: Zap },
-                        { label: t('home.stats.security'), value: t('home.stats.security'), icon: ShieldCheck },
-                    ].map((stat, i) => (
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            key={i}
-                            className="flex flex-col items-center gap-2 group"
-                        >
-                            <stat.icon size={20} className="text-amber-500 mb-2 group-hover:scale-110 transition-transform" />
-                            <span className="text-4xl font-black text-white tracking-tighter">{stat.value}</span>
-                            <span className="text-xs text-slate-500 font-bold uppercase tracking-[0.2em]">{stat.label}</span>
-                        </motion.div>
-                    ))}
+            {/* ── Stats ──────────────────────────────────────── */}
+            <section className="py-16 relative z-10 border-y border-white/[0.05] bg-white/[0.02]">
+                <div className="section-container">
+                    <div className="stats-grid text-center">
+                        {[
+                            { label: t('home.stats.downloads'), value: '15k+', icon: Globe },
+                            { label: t('home.stats.clients'), value: '8.2k', icon: CheckCircle },
+                            { label: t('home.stats.efficiency'), value: '+300%', icon: Zap },
+                            { label: t('home.stats.security'), value: 'AAA⁺', icon: ShieldCheck },
+                        ].map((stat, i) => (
+                            <motion.div
+                                key={i}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: i * 0.1 }}
+                                className="flex flex-col items-center gap-2 group"
+                            >
+                                <div className="p-2.5 bg-amber-500/10 rounded-xl mb-1 group-hover:bg-amber-500/20 transition-colors">
+                                    <stat.icon size={18} className="text-amber-500" />
+                                </div>
+                                <span className="text-4xl font-black text-white tracking-tighter">{stat.value}</span>
+                                <span className="text-xs text-slate-500 font-semibold uppercase tracking-[0.15em]">{stat.label}</span>
+                            </motion.div>
+                        ))}
+                    </div>
                 </div>
             </section>
 
-            {/* Link Hub / Affiliate Deals */}
+            {/* ── Featured Links ────────────────────────────── */}
             <LinkHub />
 
-
-            {/* Products Grid */}
+            {/* ── Products Grid ─────────────────────────────── */}
             <ProductsGrid />
 
-            {/* CTA Section */}
-            <section className="py-40 relative z-10 overflow-hidden">
-                <div className="container mx-auto px-6">
+            {/* ── CTA ──────────────────────────────────────── */}
+            <section className="py-32 relative z-10 overflow-hidden">
+                <div className="section-container">
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="max-w-5xl mx-auto bg-gradient-to-br from-amber-600/20 via-slate-900/40 to-slate-900/60 border border-amber-500/20 rounded-[3rem] p-16 text-center relative overflow-hidden group hover:border-amber-500/40 transition-all duration-500 shadow-3xl"
+                        className="max-w-4xl mx-auto rounded-[2.5rem] p-14 text-center relative overflow-hidden"
+                        style={{
+                            background: 'linear-gradient(135deg, rgba(217,119,6,0.18) 0%, rgba(15,23,42,0.5) 60%)',
+                            border: '1px solid rgba(245,158,11,0.2)',
+                            boxShadow: '0 40px 120px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.05)'
+                        }}
                     >
-                        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2 group-hover:bg-amber-500/20 transition-all" />
-
-                        <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tighter leading-tight relative z-10" dangerouslySetInnerHTML={{ __html: t('home.cta.title') }}>
-                        </h2>
-                        <p className="text-slate-300 text-xl mb-12 relative z-10 font-light max-w-2xl mx-auto">
+                        <div className="absolute top-0 right-0 w-72 h-72 bg-amber-500/10 blur-[100px] rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+                        <h2 className="text-4xl md:text-5xl font-black text-white mb-6 tracking-tighter relative z-10 leading-tight"
+                            dangerouslySetInnerHTML={{ __html: t('home.cta.title') }} />
+                        <p className="text-slate-300 text-lg mb-10 relative z-10 font-light max-w-xl mx-auto">
                             {t('home.cta.desc')}
                         </p>
-                        <button className="relative z-10 btn btn-primary bg-amber-500 hover:bg-amber-400 text-slate-950 px-12 py-5 rounded-2xl font-black transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/20 text-lg uppercase tracking-tight">
-                            {t('home.cta.btn')} <Zap size={20} className="ml-2 inline-block" />
+                        <button className="btn btn-primary relative z-10 text-base px-10">
+                            {t('home.cta.btn')} <Zap size={18} />
                         </button>
                     </motion.div>
                 </div>
@@ -113,4 +134,3 @@ const Home = () => {
 };
 
 export default Home;
-

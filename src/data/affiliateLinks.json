@@ -167,6 +167,7 @@
         "category": "books",
         "subtitle": "A Life-Changing Tool That Millions of People Can't Stop Talking About",
         "url": "https://www.amazon.com/dp/1401971369?tag=louisamazonaf-20",
+        "isbn": "1401971369",
         "icon": "📖",
         "isHighlighted": false,
         "brand": "heritage"
@@ -177,29 +178,21 @@
         "category": "books",
         "subtitle": "The Journey Beyond Yourself",
         "url": "https://www.amazon.com/dp/1572245379?tag=louisamazonaf-20",
+        "isbn": "1572245379",
         "icon": "🔥",
         "isHighlighted": false,
         "brand": "heritage"
     },
     {
-        "id": "the-subtle-art-of-not-giving-a-fck",
+        "id": "the-subtle-art",
         "title": "The Subtle Art of Not Giving a F*ck",
         "category": "books",
         "subtitle": "A Counterintuitive Approach to Living a Good Life",
         "url": "https://www.amazon.com/dp/0062641549?tag=louisamazonaf-20",
+        "isbn": "0062641549",
         "icon": "🔥",
         "isHighlighted": false,
         "brand": "heritage"
-    },
-    {
-        "id": "the-psychology-of-money",
-        "title": "The Psychology of Money",
-        "category": "books",
-        "subtitle": "Timeless Lessons on Wealth, Greed, and Happiness",
-        "url": "https://www.amazon.com/dp/B08D9WJ9G8?tag=louisamazonaf-20",
-        "icon": "💰",
-        "isHighlighted": false,
-        "brand": "richesse"
     },
     {
         "id": "atomic-habits",
@@ -207,8 +200,9 @@
         "category": "books",
         "subtitle": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
         "url": "https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20",
+        "isbn": "0735211299",
         "icon": "⚡",
-        "isHighlighted": false,
+        "isHighlighted": true,
         "brand": "heritage"
     },
     {
@@ -217,9 +211,76 @@
         "category": "books",
         "subtitle": "A groundbreaking narrative of humanity's creation and evolution",
         "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
+        "isbn": "0062316095",
         "icon": "🌍",
         "isHighlighted": false,
         "brand": "heritage"
+    },
+    {
+        "id": "the-psychology-of-money",
+        "title": "The Psychology of Money",
+        "category": "books",
+        "subtitle": "Timeless Lessons on Wealth, Greed, and Happiness",
+        "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
+        "isbn": "0857197681",
+        "icon": "💰",
+        "isHighlighted": true,
+        "brand": "richesse"
+    },
+    {
+        "id": "richest-man-in-babylon",
+        "title": "The Richest Man in Babylon",
+        "category": "finance",
+        "subtitle": "The original guide to financial success — timeless wealth principles",
+        "url": "https://www.amazon.com/dp/1505339111?tag=louisamazonaf-20",
+        "isbn": "1505339111",
+        "icon": "🏛️",
+        "isHighlighted": true,
+        "brand": "richesse"
+    },
+    {
+        "id": "rich-dad-poor-dad",
+        "title": "Rich Dad Poor Dad",
+        "category": "finance",
+        "subtitle": "What the Rich Teach Their Kids About Money",
+        "url": "https://www.amazon.com/dp/1612680194?tag=louisamazonaf-20",
+        "isbn": "1612680194",
+        "icon": "💎",
+        "isHighlighted": true,
+        "brand": "richesse"
+    },
+    {
+        "id": "intelligent-investor",
+        "title": "The Intelligent Investor",
+        "category": "finance",
+        "subtitle": "The Definitive Book on Value Investing",
+        "url": "https://www.amazon.com/dp/0062312685?tag=louisamazonaf-20",
+        "isbn": "0062312685",
+        "icon": "📈",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "millionaire-fastlane",
+        "title": "The Millionaire Fastlane",
+        "category": "finance",
+        "subtitle": "Crack the Code to Wealth and Live Rich for a Lifetime",
+        "url": "https://www.amazon.com/dp/0984358102?tag=louisamazonaf-20",
+        "isbn": "0984358102",
+        "icon": "🚀",
+        "isHighlighted": false,
+        "brand": "richesse"
+    },
+    {
+        "id": "die-with-zero",
+        "title": "Die with Zero",
+        "category": "finance",
+        "subtitle": "Getting All You Can from Your Money and Your Life",
+        "url": "https://www.amazon.com/dp/0358099765?tag=louisamazonaf-20",
+        "isbn": "0358099765",
+        "icon": "🎯",
+        "isHighlighted": false,
+        "brand": "richesse"
     },
     {
         "id": "xapo-membership",
@@ -228,7 +289,7 @@
         "subtitle": "Ouvrez un compte Bitcoin-enabled et sécurisez votre patrimoine",
         "url": "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
         "icon": "🏛️",
-        "isHighlighted": false,
+        "isHighlighted": true,
         "brand": "richesse"
     }
 ]
