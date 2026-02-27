@@ -1,12 +1,21 @@
 [
     {
+        "id": "the-silent-patient-13e2",
+        "title": "The Silent Patient",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/1250301696?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "sapiens-a-brief-history-of-humankind-68b7",
         "title": "Sapiens: A Brief History of Humankind",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "unreasonable-hospitality-the-remarkable-power-of-giving-people-more-than-they-ex-16de",
