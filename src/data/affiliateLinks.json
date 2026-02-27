@@ -1,12 +1,21 @@
 [
     {
+        "id": "sapiens-a-brief-history-of-humankind-68b7",
+        "title": "Sapiens: A Brief History of Humankind",
+        "category": "finance",
+        "subtitle": "Featured in latest video",
+        "url": "https://www.amazon.com/dp/0062316095?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true
+    },
+    {
         "id": "unreasonable-hospitality-the-remarkable-power-of-giving-people-more-than-they-ex-16de",
         "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect",
         "category": "finance",
         "subtitle": "Featured in latest video",
         "url": "https://www.amazon.com/dp/0593418573?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true
+        "isHighlighted": false
     },
     {
         "id": "the-simple-path-to-wealth-your-road-map-to-financial-independence-and-a-rich-fre-8131",
