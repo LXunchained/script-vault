@@ -1,12 +1,23 @@
 [
     {
+        "id": "the-psychology-of-money-5e99",
+        "title": "The Psychology of Money",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "0857197681",
+        "coverUrl": "https://m.media-amazon.com/images/P/0857197681.01._SX500_.jpg"
+    },
+    {
         "id": "die-with-zero-getting-all-you-can-from-your-money-and-your-lifea-revolutionary-a-8dbd",
         "title": "Die With Zero: Getting All You Can from Your Money and Your Life—A Revolutionary Approach to Maximizing Life Experiences Over Accumulating Wealth",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/B07T5LSF1J?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "B07T5LSF1J",
         "coverUrl": "https://m.media-amazon.com/images/P/B07T5LSF1J.01._SX500_.jpg"
     },
