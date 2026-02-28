@@ -32,15 +32,6 @@ const partners = [
         url: "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
         cta: "Decouvrir Xapo",
     },
-    {
-        name: "Revolut",
-        tag: "Neobanque",
-        icon: Zap,
-        color: "violet",
-        desc: "Compte bancaire global, trading crypto et actions, assurance voyage incluse.",
-        url: "https://revolut.com/referral",
-        cta: "Ouvrir gratuitement",
-    },
 ];
 
 const colorMap = {
