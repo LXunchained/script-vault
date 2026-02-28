@@ -1,12 +1,23 @@
 [
     {
+        "id": "the-bogleheads-guide-to-investing-796c",
+        "title": "The Bogleheads' Guide to Investing",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/1119847672?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "1119847672",
+        "coverUrl": "https://m.media-amazon.com/images/P/1119847672.01._SX500_.jpg"
+    },
+    {
         "id": "the-simple-path-to-wealth-your-road-map-to-financial-independence-and-a-rich-fre-6685",
         "title": "The Simple Path to Wealth: Your road map to financial independence and a rich, free life",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/1533667926?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "1533667926",
         "coverUrl": "https://m.media-amazon.com/images/P/1533667926.01._SX500_.jpg"
     },
