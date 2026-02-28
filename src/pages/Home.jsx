@@ -3,6 +3,9 @@ import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck, BookOpen, Trend
 import LinkHub from '../components/LinkHub';
 import ProductsGrid from '../components/ProductsGrid';
 import { useLanguage } from '../contexts/LanguageContext';
+import Services from '../components/Services';
+import Newsletter from '../components/Newsletter';
+import Affiliates from '../components/Affiliates';
 
 const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -129,6 +132,16 @@ const Home = () => {
                     </motion.div>
                 </div>
             </section>
+        
+            {/* ── Affiliates ────────────────────────────── */}
+            <Affiliates />
+
+            {/* ── Services ──────────────────────────────── */}
+            <Services />
+
+            {/* ── Newsletter ────────────────────────────── */}
+            <Newsletter />
+
         </div>
     );
 };
