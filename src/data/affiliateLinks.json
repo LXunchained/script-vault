@@ -1,12 +1,23 @@
 [
     {
+        "id": "money-master-the-game-7-simple-steps-to-financial-freedom-tony-robbins-financial-243f",
+        "title": "MONEY Master the Game: 7 Simple Steps to Financial Freedom (Tony Robbins Financial Freedom Series)",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/1476757801?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "1476757801",
+        "coverUrl": "https://m.media-amazon.com/images/P/1476757801.01._SX500_.jpg"
+    },
+    {
         "id": "the-bogleheads-guide-to-investing-796c",
         "title": "The Bogleheads' Guide to Investing",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/1119847672?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "1119847672",
         "coverUrl": "https://m.media-amazon.com/images/P/1119847672.01._SX500_.jpg"
     },
