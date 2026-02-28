@@ -20,7 +20,7 @@ const partners = [
         icon: Globe2,
         color: "emerald",
         desc: "Transferts internationaux sans frais caches. Compte multi-devises pour expatries.",
-        url: "https://wise.com/invite/u/louish756",
+        url: "https://wise.com/invite/ahpc/louish756",
         cta: "Creer un compte",
     },
     {
