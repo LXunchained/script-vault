@@ -1,12 +1,23 @@
 [
     {
+        "id": "i-will-teach-you-to-be-rich-no-guilt-no-excuses-just-a-6-week-program-that-works-cebd",
+        "title": "I Will Teach You to Be Rich: No Guilt. No Excuses. Just a 6-Week Program That Works (Second Edition)",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/1523505745?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "1523505745",
+        "coverUrl": "https://m.media-amazon.com/images/P/1523505745.01._SX500_.jpg"
+    },
+    {
         "id": "die-with-zero-getting-all-you-can-from-your-money-and-your-life-71a3",
         "title": "Die With Zero: Getting All You Can from Your Money and Your Life",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/0358099765?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "0358099765",
         "coverUrl": "https://m.media-amazon.com/images/P/0358099765.01._SX500_.jpg"
     },
