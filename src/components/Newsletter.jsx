@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, ArrowRight, Download } from 'lucide-react';
 
-const BEEHIIV_URL = "https://embeds.beehiiv.com/subscribe";
+const BEEHIIV_URL = "https://magic.beehiiv.com/v1/6b13b0e5-1a68-4b8f-8c0b-240c26fc9615";
 const GUIDE_URL = "https://richesse-souveraine.com/guide.html";
 
 export default function Newsletter() {
