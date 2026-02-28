@@ -1,12 +1,23 @@
 [
     {
+        "id": "die-with-zero-getting-all-you-can-from-your-money-and-your-life-71a3",
+        "title": "Die With Zero: Getting All You Can from Your Money and Your Life",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/0358099765?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "0358099765",
+        "coverUrl": "https://m.media-amazon.com/images/P/0358099765.01._SX500_.jpg"
+    },
+    {
         "id": "millionaire-expat-second-edition-how-to-build-wealth-living-overseas-8933",
         "title": "Millionaire Expat, Second Edition: How To Build Wealth Living Overseas",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/1119411890?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "1119411890",
         "coverUrl": "https://m.media-amazon.com/images/P/1119411890.01._SX500_.jpg"
     },
