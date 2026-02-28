@@ -53,7 +53,7 @@ const colorMap = {
     violet: { badge: "bg-violet-500/10 text-violet-400 border-violet-500/20", icon: "text-violet-400", check: "text-violet-400", btn: "bg-violet-500 hover:bg-violet-400 text-white" },
 };
 
-const CALENDLY = "https://richesse-souveraine.com";
+const CALENDLY = "https://calendly.com/louisbinance851/audit-patrimonial-1h";
 
 export default function Services() {
     return (
