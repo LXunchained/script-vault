@@ -1,12 +1,23 @@
 [
     {
+        "id": "millionaire-expat-second-edition-how-to-build-wealth-living-overseas-8933",
+        "title": "Millionaire Expat, Second Edition: How To Build Wealth Living Overseas",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/1119411890?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "1119411890",
+        "coverUrl": "https://m.media-amazon.com/images/P/1119411890.01._SX500_.jpg"
+    },
+    {
         "id": "the-psychology-of-money-5e99",
         "title": "The Psychology of Money",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "0857197681",
         "coverUrl": "https://m.media-amazon.com/images/P/0857197681.01._SX500_.jpg"
     },
