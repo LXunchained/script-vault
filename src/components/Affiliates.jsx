@@ -28,8 +28,8 @@ const partners = [
         tag: "Bitcoin Bank",
         icon: Shield,
         color: "orange",
-        desc: "La seule banque souveraine qui combine Bitcoin et USD. Basee a Gibraltar.",
-        url: "https://www.xapo.com",
+        desc: "0.50% yield sur Bitcoin + 3.35% sur USD. La vraie banque souveraine.",
+        url: "https://application.xapo.com/membership-application?ref=UGD-NEB-JZ",
         cta: "Decouvrir Xapo",
     },
     {
