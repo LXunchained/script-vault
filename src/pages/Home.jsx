@@ -3,6 +3,7 @@ import { ArrowRight, Code, Zap, CheckCircle, Globe, ShieldCheck, BookOpen, Trend
 import LinkHub from '../components/LinkHub';
 import ProductsGrid from '../components/ProductsGrid';
 import { useLanguage } from '../contexts/LanguageContext';
+import Blog from '../components/Blog';
 import Services from '../components/Services';
 import Newsletter from '../components/Newsletter';
 import Affiliates from '../components/Affiliates';
@@ -133,6 +134,9 @@ const Home = () => {
                 </div>
             </section>
         
+            {/* ── Blog ──────────────────────────────────── */}
+            <Blog />
+
             {/* ── Affiliates ────────────────────────────── */}
             <Affiliates />
 
