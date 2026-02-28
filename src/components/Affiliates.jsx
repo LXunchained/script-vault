@@ -11,7 +11,7 @@ const partners = [
         icon: TrendingUp,
         color: "amber",
         desc: "La plateforme prefere des expats. Acces global, frais ultra-bas, marches mondiaux.",
-        url: "https://www.interactivebrokers.com",
+        url: "https://ibkr.com/referral/louis624",
         cta: "Ouvrir un compte",
     },
     {
@@ -20,7 +20,7 @@ const partners = [
         icon: Globe2,
         color: "emerald",
         desc: "Transferts internationaux sans frais caches. Compte multi-devises pour expatries.",
-        url: "https://wise.com/invite/u/louisb771",
+        url: "https://wise.com/invite/u/louish756",
         cta: "Creer un compte",
     },
     {
