@@ -1,12 +1,23 @@
 [
     {
+        "id": "the-simple-path-to-wealth-your-road-map-to-financial-independence-and-a-rich-fre-6685",
+        "title": "The Simple Path to Wealth: Your road map to financial independence and a rich, free life",
+        "category": "finance",
+        "subtitle": "Essentiel pour votre souveraineté financière",
+        "url": "https://www.amazon.com/dp/1533667926?tag=louisamazonaf-20",
+        "icon": "💰",
+        "isHighlighted": true,
+        "isbn": "1533667926",
+        "coverUrl": "https://m.media-amazon.com/images/P/1533667926.01._SX500_.jpg"
+    },
+    {
         "id": "i-will-teach-you-to-be-rich-no-guilt-no-excuses-just-a-6-week-program-that-works-cebd",
         "title": "I Will Teach You to Be Rich: No Guilt. No Excuses. Just a 6-Week Program That Works (Second Edition)",
         "category": "finance",
         "subtitle": "Essentiel pour votre souveraineté financière",
         "url": "https://www.amazon.com/dp/1523505745?tag=louisamazonaf-20",
         "icon": "💰",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "isbn": "1523505745",
         "coverUrl": "https://m.media-amazon.com/images/P/1523505745.01._SX500_.jpg"
     },
