@@ -2,29 +2,29 @@ import { motion } from 'framer-motion';
 import { Calendar, BarChart2, Globe2, CheckCircle2 } from 'lucide-react';
 
 const fadeInUp = { initial: { opacity: 0, y: 30 }, animate: { opacity: 1, y: 0 } };
-const stagger  = { animate: { transition: { staggerChildren: 0.1 } } };
+const stagger = { animate: { transition: { staggerChildren: 0.1 } } };
 
 const services = [
     {
         icon: BarChart2,
         color: "amber",
         title: "Audit Patrimonial",
-        price: "150 €",
+        price: "150 \u20ac",
         duration: "1h",
-        desc: "Analyse complète de votre situation financière, bancaire et fiscale. Identification des optimisations prioritaires.",
+        desc: "Analyse complete de votre situation financiere, bancaire et fiscale. Identification des optimisations prioritaires.",
         bullets: [
             "Bilan patrimonial complet",
             "Analyse fiscale expat",
-            "Plan action personnalisé",
+            "Plan action personnalise",
         ],
     },
     {
         icon: Globe2,
         color: "emerald",
-        title: "Setup Expatrié Complet",
-        price: "750 €",
+        title: "Setup Expatrie Complet",
+        price: "750 \u20ac",
         duration: "Package",
-        desc: "Accompagnement clé en main pour structurer votre vie financière à l'international : banques, fiscalité, investissements.",
+        desc: "Accompagnement cle en main pour votre vie financiere a l'international : banques, fiscalite, investissements.",
         bullets: [
             "Ouverture comptes offshore",
             "Structure fiscale optimale",
@@ -36,21 +36,21 @@ const services = [
         icon: Calendar,
         color: "violet",
         title: "Accompagnement Mensuel",
-        price: "300 €/mois",
+        price: "300 \u20ac/mois",
         duration: "Mensuel",
-        desc: "Suivi régulier de votre patrimoine, accès prioritaire, révision de stratégie chaque mois.",
+        desc: "Suivi regulier de votre patrimoine, acces prioritaire, revision de strategie chaque mois.",
         bullets: [
             "2 calls/mois",
-            "Accès Telegram privé",
+            "Acces Telegram prive",
             "Revue de portefeuille mensuelle",
         ],
     },
 ];
 
 const colorMap = {
-    amber:   { badge: "bg-amber-500/10 text-amber-400 border-amber-500/20",      icon: "text-amber-400",   check: "text-amber-400",   btn: "bg-amber-500 hover:bg-amber-400 text-slate-950" },
+    amber: { badge: "bg-amber-500/10 text-amber-400 border-amber-500/20", icon: "text-amber-400", check: "text-amber-400", btn: "bg-amber-500 hover:bg-amber-400 text-slate-950" },
     emerald: { badge: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20", icon: "text-emerald-400", check: "text-emerald-400", btn: "bg-emerald-500 hover:bg-emerald-400 text-slate-950" },
-    violet:  { badge: "bg-violet-500/10 text-violet-400 border-violet-500/20",    icon: "text-violet-400",  check: "text-violet-400",  btn: "bg-violet-500 hover:bg-violet-400 text-white" },
+    violet: { badge: "bg-violet-500/10 text-violet-400 border-violet-500/20", icon: "text-violet-400", check: "text-violet-400", btn: "bg-violet-500 hover:bg-violet-400 text-white" },
 };
 
 const CALENDLY = "https://richesse-souveraine.com";
@@ -71,25 +71,24 @@ export default function Services() {
                         Services <span className="text-amber-400">Patrimoine</span>
                     </motion.h2>
                     <motion.p variants={fadeInUp} className="text-slate-400 max-w-xl mx-auto">
-                        Accompagnement personnalisé pour expatriés et investisseurs francophones.
+                        Accompagnement personnalise pour expatries et investisseurs francophones.
                     </motion.p>
                 </motion.div>
 
                 <motion.div initial="initial" animate="animate" variants={stagger}
                     className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {services.map((s) => {
-                        const c    = colorMap[s.color];
+                        const c = colorMap[s.color];
                         const Icon = s.icon;
                         return (
                             <motion.div key={s.title} variants={fadeInUp}
-                                className={`relative rounded-2xl border p-8 flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1 ${
-                                    s.highlighted
+                                className={`relative rounded-2xl border p-8 flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1 ${s.highlighted
                                         ? "bg-gradient-to-b from-amber-500/[0.07] to-transparent border-amber-500/30"
                                         : "bg-white/[0.02] border-white/8 hover:border-white/15"
-                                }`}>
+                                    }`}>
                                 {s.highlighted && (
                                     <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-amber-500 text-slate-950 text-xs font-black rounded-full uppercase tracking-widest">
-                                        Recommandé
+                                        Recommande
                                     </span>
                                 )}
                                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${c.badge} border`}>
@@ -113,7 +112,7 @@ export default function Services() {
                                 </ul>
                                 <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
                                     className={`w-full text-center py-3 rounded-xl text-sm font-bold transition-all duration-200 ${c.btn}`}>
-                                    Réserver un appel
+                                    Reserver un appel
                                 </a>
                             </motion.div>
                         );
