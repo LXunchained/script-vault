@@ -12,7 +12,7 @@ const services = [
         price: '150 €',
         duration: '1h',
         desc: 'Analyse complète de votre situation financière, bancaire et fiscale. Identification des optimisations prioritaires.',
-        bullets: ['Bilan patrimonial complet', 'Analyse fiscale expat', 'Plan d'action personnalisé'],
+        bullets: ['Bilan patrimonial complet', 'Analyse fiscale expat', Plan d'action personnalisé],
     },
     {
         icon: Globe2,
@@ -21,7 +21,7 @@ const services = [
         price: '750 €',
         duration: 'Package',
         desc: 'Accompagnement clé en main pour structurer votre vie financière à l'international : banques, fiscalité, investissements.',
-        bullets: ['Ouverture comptes offshore', 'Structure fiscale optimale', 'Portefeuille d'investissement initial'],
+        bullets: ['Ouverture comptes offshore', 'Structure fiscale optimale', Portefeuille d'investissement initial],
         highlighted: true,
     },
     {
